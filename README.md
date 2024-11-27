@@ -1,18 +1,24 @@
-## Getting Started
+# N-Puzzle Solver
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Java-based project solves the N-Puzzle problem using the A* algorithm. The puzzle can be configured for any size, but the solver is optimized for the 8-Puzzle. The project includes an interactive way to visualize the puzzle and its solution.
 
-## Folder Structure
+## Project Structure
 
-The workspace contains two folders by default, where:
+- `src/`: Contains the source code.
+  - `Main.java`: The main entry point for running the solver.
+  - `PuzzleSolver.java`: Contains the logic for solving the puzzle using A*.
+  - `Puzzle.java`: Defines the N-Puzzle state and methods for manipulating tiles.
+- `bin/`: Contains compiled class files.
+- `README.md`: Project documentation.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Configurable N-Puzzle size.
+- A* algorithm for solving the 8-Puzzle.
+- Puzzle state visualization.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Usage
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone the repository.
+2. Compile the Java files: `javac src/*.java`.
+3. Run the main program: `java Main`.
