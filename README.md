@@ -21,4 +21,4 @@ This Java-based project solves the N-Puzzle problem using the A* algorithm. The 
 
 1. Clone the repository.
 2. Compile the Java files: `javac src/*.java`.
-3. Run the main program: `java Main`.
+3. Run the main program: `java -cp src App`.
